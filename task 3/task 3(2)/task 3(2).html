@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .container {
+            display: flex;
+            flex-flow: row wrap;
+        }
+        .container .child {
+            margin: 0 15px 15px 0;
+            width: 250px;
+            height: 100px;
+        }
+        .container .child:nth-child(1) {
+            background-color: red;
+        }
+        .container .child:nth-child(even) {
+            border: 2px blue solid;
+        }
+        .container .child:nth-child(n+2):nth-child(-n+5) {
+            background-color: pink;
+        }
+        .container .child:nth-child(n+6):nth-child(-n+19) {
+            background-color: purple;
+        }
+        .container .child:last-child {
+            margin-left: 30px;
+            background-color: green;
+        }
+    </style>
+</head>
+
+<body>
+<div class="container">
+    <div class="child">Child 1</div>
+    <div class="child">Child 2</div>
+    <div class="child">Child 3</div>
+    <div class="child">Child 4</div>
+    <div class="child">Child 5</div>
+    <div class="child">Child 6</div>
+    <div class="child">Child 7</div>
+    <div class="child">Child 8</div>
+    <div class="child">Child 9</div>
+    <div class="child">Child 10</div>
+    <div class="child">Child 11</div>
+    <div class="child">Child 12</div>
+    <div class="child">Child 13</div>
+    <div class="child">Child 14</div>
+    <div class="child">Child 15</div>
+    <div class="child">Child 16</div>
+    <div class="child">Child 17</div>
+    <div class="child">Child 18</div>
+    <div class="child">Child 19</div>
+    <div class="child">Child 20</div>
+</div>
+</body>
+
+</html>
