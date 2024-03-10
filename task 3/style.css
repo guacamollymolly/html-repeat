@@ -1,0 +1,23 @@
+a {
+    text-decoration: none;
+}
+.block-link a:nth-child(1):hover {
+    background-color: plum;
+}
+.block-link a:nth-child(2):hover {
+    color: red;
+}
+.block-link a:nth-child(3):hover {
+    border-bottom: 1px red solid;
+}
+.block-link a:nth-child(4):hover {
+    font-size: 20px;
+}
+.block-link a:nth-child(5):hover {
+    font-weight: bold;
+}
+
+.opt a:nth-child(1):hover {
+    border-bottom: 1px red solid;
+    border-top: 1px red solid;
+}

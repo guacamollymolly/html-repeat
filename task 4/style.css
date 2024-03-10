@@ -1,0 +1,14 @@
+.perfect {
+    text-align: center;
+}
+.perfect::before {
+   width: 500px;
+    height: 500px;
+    content: url("img/thumbnail.png");
+}
+
+.perfect::after {
+    width: 500px;
+    height: 500px;
+    content: url("img/thumbnail.png");
+}

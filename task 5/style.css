@@ -1,0 +1,7 @@
+ol li:nth-child(n + 1):nth-child(-n + 7)::after {
+    content: ";";
+}
+
+ol li:last-child:after {
+    content: ".";
+}
