@@ -1,0 +1,54 @@
+* {
+    font-family: "Oswald","Montserrat", sans-serif;
+}
+
+.block-img {
+    width: 50%;
+}
+
+.block-right {
+    width: 50%;
+}
+
+.block-right .here {
+    border-radius: 3px;
+    width: 78px;
+    height: 32px;
+    background: #f5a623;
+    font-family: "Oswald", "Montserrat", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 178%;
+    letter-spacing: 0.11em;
+    text-transform: uppercase;
+    color: #333;
+}
+
+.block-right .here-bio {
+    font-family: "Oswald", "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 114%;
+    color: #333;
+    width: 347px;
+}
+
+.block-right .here-job {
+    font-family: "Oswald", "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 200%;
+    color: rgba(51, 51, 51, 0.5);
+    width: 470px;
+}
+.bio {
+    width: 269px;
+}
+
+.bio .bio-name {
+    font-family: "Oswald", "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 133%;
+    color: #333;
+}

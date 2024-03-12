@@ -1,0 +1,61 @@
+form, form *{
+    display: block;
+}
+* {
+    font-family: "Oswald","Montserrat", sans-serif;
+}
+
+.contact {
+    width: 50%;
+}
+.right-map {
+    width: 50%;
+}
+
+.contact .contact-t {
+    font-family: "Oswald", "Montserrat", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 178%;
+    letter-spacing: 0.11em;
+    text-transform: uppercase;
+    color: #333;
+    background-color: #f5a623;
+    width: 110px;
+    text-align: center;
+}
+.contact .contact-message {
+    font-family: "Oswald", "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 114%;
+    color: #333;
+}
+
+.label-name {
+    width: 370px;
+    height: 48px;
+}
+
+.form_name {
+    width: 370px;
+    height: 48px;
+    margin-bottom: 32px;
+}
+
+.form_email {
+    width: 370px;
+    height: 48px;
+    margin-bottom: 32px;
+}
+
+.form_area {
+    width: 370px;
+    height: 144px;
+    margin-bottom: 32px;
+}
+
+.form_btn {
+    width: 170px;
+    height: 48px;
+}
