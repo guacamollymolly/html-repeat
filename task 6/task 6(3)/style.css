@@ -1,0 +1,20 @@
+.wrap {
+    display: flex;
+    width: 900px;
+    justify-content: space-between;
+}
+
+.wrap .block {
+    width: 250px;
+    height: 150px;
+    margin: 0 10px 10px 0;
+    background-color: red;
+}
+
+.wrap .block:nth-child(3) {
+    flex-grow: 5;
+
+}
+.wrap .block:nth-child(7) {
+    flex-grow: 7;
+}
