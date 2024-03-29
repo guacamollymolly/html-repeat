@@ -1,0 +1,30 @@
+.wrap {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: baseline;
+    height: 100%;
+}
+
+.wrap .block {
+    font-size: 28px;
+    background-color: orange;
+    width: 100%;
+    margin-left: 10px;
+    flex-wrap: nowrap;
+}
+
+.wrap .block:nth-child(odd) {
+    font-size: 12px;
+}
+
+.wrap .block:nth-child(5) {
+    font-size: 8px;
+}
+
+.wrap .block:nth-child(3) {
+    font-size: 22px;
+}
+
+.wrap .block:nth-child(8) {
+    font-size: 42px;
+}
